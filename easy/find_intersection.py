@@ -26,6 +26,3 @@ def FindIntersection(strArr):
 
   result = ",".join(map(str, sorted(intersection)))
   return result
-
-# keep this function call here 
-print(FindIntersection(input()))
